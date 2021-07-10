@@ -8,16 +8,16 @@
         android:icon="@drawable/home"/>
 
     <item
-        android:id="@+id/search_menu"
+        android:id="@+id/pay_menu"
         android:title="Payment"
         android:icon="@drawable/payment_black"/>
 
     <item
-        android:id="@+id/favorite_menu"
+        android:id="@+id/history_menu"
         android:title="History"
         android:icon="@drawable/history"/>
     <item
-        android:id="@+id/account_menu"
+        android:id="@+id/settings_menu"
         android:title="Settings"
         android:icon="@drawable/settings"/>
 
