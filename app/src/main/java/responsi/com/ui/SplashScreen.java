@@ -1,14 +1,16 @@
-package responsi.com;
+package responsi.com.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ProfilActivity extends AppCompatActivity {
+import responsi.com.R;
+
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profil);
+        setContentView(R.layout.activity_splash_screen);
     }
 }

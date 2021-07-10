@@ -10,7 +10,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -97,6 +97,7 @@
                 android:textColor="@color/bluetext"/>
 
             <TextView
+                android:id="@+id/tv_ForgotHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_here"
@@ -121,6 +122,7 @@
                 android:textColor="@color/bluetext"/>
 
             <TextView
+                android:id="@+id/tv_RegHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_here"

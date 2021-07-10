@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Finance.noActionBar">
-        <activity android:name=".ProfilActivity"></activity>
-        <activity android:name=".RecorveryActivity" />
-        <activity android:name=".RegisterActivity" /> <!-- <activity android:name=".LoginActivity"></activity> -->
-        <activity android:name=".SplashScreen" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ui.ProfilActivity"></activity>
+        <activity android:name=".ui.RecorveryActivity" />
+        <activity android:name=".ui.RegisterActivity" /> <!-- <activity android:name=".LoginActivity"></activity> -->
+        <activity android:name=".ui.SplashScreen" />
+        <activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
